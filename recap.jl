@@ -67,8 +67,8 @@ function bisection(f, a, b, tol, N)
 end
 
 N = 100
-a0 = 2
-b0 = 8
+a0 = 1
+b0 = 4
 tol = 1e-6
 
 f(x) = x^2 - 4x - 5
@@ -111,3 +111,4 @@ N = 100
 
 
 newton(g, g1, x0, tol, N)
+
